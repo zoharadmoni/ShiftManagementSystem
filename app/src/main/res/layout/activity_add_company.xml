@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    tools:context=".AddCompany">
+
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="wrap_content">>
+
+
+    <EditText
+        android:id="@+id/etCompanyName"
+        android:layout_width="333dp"
+        android:layout_gravity="fill_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="#7EFDFDFD"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="Company name"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textColorHint="#92000000" />
+
+
+</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:id="@+id/etCompEmail"
+            android:layout_width="333dp"
+            android:layout_gravity="fill_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="#7EFDFDFD"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:hint="Company Email"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textColorHint="#92000000" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etCompanyPassword"
+            android:layout_width="333dp"
+            android:layout_gravity="fill_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="#7EFDFDFD"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:hint="Company Password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textColorHint="#92000000" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="casual"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#090809"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="registerCompany"
+        tools:ignore="OnClick" />
+
+<TableRow/>
+
+</TableLayout>

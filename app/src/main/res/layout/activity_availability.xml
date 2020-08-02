@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/Sunday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            android:onClick="sunday"
+            tools:ignore="OnClick"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/Monday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:onClick="monday"
+            tools:ignore="OnClick"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/Tuesday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:onClick="tuesday"
+            tools:ignore="OnClick"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/Wednesday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:onClick="wednesday"
+            tools:ignore="OnClick"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/Thursday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Thursday"
+            android:onClick="thursday"
+            tools:ignore="OnClick"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/Friday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:onClick="friday"
+            tools:ignore="OnClick"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/Saturday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:onClick="saturday"
+            tools:ignore="OnClick"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        ></LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Submit"
+        android:onClick="submit"
+        tools:ignore="OnClick"
+        />
+
+</LinearLayout>

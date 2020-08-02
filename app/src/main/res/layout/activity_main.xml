@@ -1,0 +1,127 @@
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:background="@drawable/background1"
+     android:layoutDirection="ltr"
+        tools:context=".MainActivity"
+   >
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="100dp">
+
+         <TextView
+             android:text="MIZ"
+             android:textSize="60sp"
+             android:textStyle="bold"
+             android:id="@+id/tvTitle"
+             android:layout_width="333dp"
+             android:layout_height="match_parent"
+             android:fontFamily="casual"
+             android:gravity="center"
+             android:padding="5dp"
+             android:textColor="#000"
+             android:layout_marginLeft="15dp"/>
+     </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">>
+
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:gravity="center"
+                android:fontFamily="casual"
+                android:id="@+id/etUserName"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="User name"
+                android:padding="5dp"
+                android:background="#7EFDFDFD"
+                android:textColorHint="#92000000"
+                android:textColor="#000" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">>
+
+            <EditText
+                android:background="#7EFDFDFD"
+                android:textColorHint="#92000000"
+                android:gravity="center"
+                android:fontFamily="casual"
+                android:id="@+id/etPassword"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:padding="5dp"
+                android:textColor="#000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnLogIn"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="casual"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textColor="#090809"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+
+     <TableRow
+
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+
+     android:weightSum="8">
+
+         <Button
+             android:id="@+id/btnAboutUs"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="4dp"
+             android:layout_marginRight="50dp"
+             android:layout_weight="4"
+             android:fontFamily="casual"
+             android:gravity="center"
+             android:text=" About Us "
+             android:textAllCaps="false"
+             android:textColor="#090809"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <Button
+             android:layout_marginLeft="50dp"
+             android:layout_marginRight="4dp"
+             android:id="@+id/btnSignUp"
+             android:gravity="center"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_weight="4"
+             android:fontFamily="casual"
+             android:text=" Sign Up "
+             android:textAllCaps="false"
+             android:textColor="#090809"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+
+     </TableRow>
+    </TableLayout>
+
